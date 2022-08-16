@@ -1,0 +1,178 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tudo bem",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "Selecionado",
+          "slots": [
+            {
+              "name": "Selecionados",
+              "type": "Selecionados"
+            }
+          ],
+          "samples": [
+            "{Selecionados}"
+          ]
+        },
+        {
+          "name": "Final",
+          "slots": [
+            {
+              "name": "Finais",
+              "type": "Finais"
+            }
+          ],
+          "samples": [
+            "{Finais}"
+          ]
+        },
+        {
+          "name": "Ignorado",
+          "slots": [
+            {
+              "name": "Ignorados",
+              "type": "Ignorados"
+            }
+          ],
+          "samples": [
+            "{Ignorados}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ligar t. v.",
+                "synonyms": [
+                  "desligar televisão",
+                  "desligar tv",
+                  "ligar tv",
+                  "ligar televisão"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "desligar quarto",
+                "synonyms": [
+                  "desligar quarto",
+                  "apagar luz do quarto",
+                  "desligue luz do quarto",
+                  "desligar luz do quarto"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ligar quarto",
+                "synonyms": [
+                  "acender quarto ",
+                  "acender luz do quarto",
+                  "ligar luz do quarto",
+                  "ligue luz do quarto"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "desligar sala",
+                "synonyms": [
+                  "desligue a luz da sala",
+                  "desligue sala",
+                  "apague sala",
+                  "apagar a luz da sala",
+                  "desligar a luz da sala"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ligar sala",
+                "synonyms": [
+                  "ligue sala",
+                  "ligue a luz da sala",
+                  "acender luz da sala",
+                  "ligar luz da sala"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "sim"
+              }
+            }
+          ],
+          "name": "Selecionados"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "não",
+                "synonyms": [
+                  "muito obrigado",
+                  "obrigado",
+                  "não obrigado"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "nada",
+                "synonyms": [
+                  "mais nada"
+                ]
+              }
+            }
+          ],
+          "name": "Finais"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "lista",
+                "synonyms": [
+                  "enviar lista de compras pro meu celular",
+                  "enviar lista de compras para o meu celular",
+                  "enviar lista de compras"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tempo",
+                "synonyms": [
+                  "qual a previsão do tempo para amanhã",
+                  "qual a previsão do tempo",
+                  "fale a previsão do tempo"
+                ]
+              }
+            }
+          ],
+          "name": "Ignorados"
+        }
+      ]
+    }
+  },
+  "version": "30"
+}
